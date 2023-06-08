@@ -1,0 +1,28 @@
+body {
+  background-color: #3c3c3c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.block-rates {
+}
+
+.section__title {
+}
+.rates {
+  display: flex;
+  justify-content: space-between;
+  color: #d4e6f7;
+  gap: 7px;
+}
+.rates__item {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #777;
+  min-height: 500px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
