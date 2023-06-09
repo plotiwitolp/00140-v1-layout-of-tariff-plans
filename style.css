@@ -21,9 +21,12 @@ body {
 
 .rates__item {
   width: 100%;
-  text-align: center;
   border: 1px solid #777;
   min-height: 500px;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.rates-title {
+  text-align: center;
 }
