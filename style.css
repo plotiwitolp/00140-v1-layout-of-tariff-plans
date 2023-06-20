@@ -8,6 +8,13 @@ body {
   margin: 0 auto;
 }
 
+.rates-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #6cb3f9;
+  text-align: center;
+}
+
 .rates {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,17 +23,85 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #d4e6f7;
-  gap: 7px;
+  gap: 15px;
 }
 
 .rates__item {
   width: 100%;
   border: 1px solid #777;
   min-height: 500px;
-  padding: 10px 20px;
+  padding: 30px 20px 35px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.rates-title {
+.rates-description {
+  margin-bottom: 25px;
+}
+
+.rates-price {
+  margin: auto 0 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #6cb3f9;
+}
+
+.rates-price__old {
+  text-decoration: line-through;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.rates-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rates-btn {
+  background-color: #cde12c;
+  color: #000;
+  padding: 10px 35px 13px;
   text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.rates__item:nth-child(1) {
+  background-color: rgba(42, 50, 86, 0.2588235294);
+}
+
+.rates__item:nth-child(2) {
+  background-color: rgba(42, 50, 86, 0.4588235294);
+}
+
+.rates__item:nth-child(3) {
+  background-color: rgba(42, 50, 86, 0.768627451);
 }
